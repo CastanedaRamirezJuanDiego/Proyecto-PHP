@@ -1,0 +1,47 @@
+body{
+    background: rgb(246, 246, 246) !important;
+}
+
+.bg-light {
+    background-color: white !important;
+    -webkit-box-shadow: -1px 6px 18px 6px rgba(0,0,0,0.22); 
+box-shadow: -1px 6px 18px 6px rgba(0,0,0,0.22);
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
+    background: #38c958;
+    border-radius: 10%;
+}
+
+.btn-outline-success {
+    border-radius: 15%;
+}
+
+.img-profile{
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    box-shadow: 0 0px 0.9px rgb(0 0 0 / 7%), 0 0px 7px rgb(0 0 0 / 14%);
+}
+
+.card-negocio{
+    background: white;
+    -webkit-box-shadow: -1px 6px 18px 6px rgba(0,0,0,0.22); 
+    box-shadow: -1px 6px 18px 6px rgba(0,0,0,0.22);
+}
+
+.card-negocio-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.item-negocio{
+    display: block;
+    color: rgba(0,0,0,.55);;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    
+}
